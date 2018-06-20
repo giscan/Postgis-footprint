@@ -1,6 +1,8 @@
 postgis-footprint
 ===========
+
 Calculate footprint from camera. Derivated from Postgis Cookbook from @smathermather Stephen Mather
+
 Real footprint is calculated here
 
 
