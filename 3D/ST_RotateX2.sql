@@ -1,5 +1,5 @@
 -- Function: st_rotatex(geometry, double precision, geometry)
-CREATE OR REPLACE FUNCTION ST_RotateX(geomA geometry, rotRadians double precision, pointOrigin geometry)
+CREATE OR REPLACE FUNCTION ST_RotateX2(geomA geometry, rotRadians double precision, pointOrigin geometry)
   RETURNS geometry AS
 $BODY$
 
