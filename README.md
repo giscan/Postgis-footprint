@@ -18,6 +18,7 @@ footprint_function
 
 **POINT VECTOR LAYER NEED AT LEAST** 
 roll, pitch, heading, filename of pictures, sensor width, focal length in mm, resolution width, resolution height, height
+
 Name of attributes : pitch numeric, bearing numeric, roll numeric, sensorw numeric, focal numeric, imagewidth integer, imageheight integer, height numeric
 
 **RUNNING AND DISLAY FOOTPRINT**
