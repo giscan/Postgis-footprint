@@ -1,5 +1,5 @@
 -- Function: ST_RotateY(geometry, double precision, geometry)
-CREATE OR REPLACE FUNCTION ST_RotateY(geomA geometry, rotRadians double precision, pointOrigin geometry)
+CREATE OR REPLACE FUNCTION ST_RotateY2(geomA geometry, rotRadians double precision, pointOrigin geometry)
   RETURNS geometry AS
 $BODY$
 
