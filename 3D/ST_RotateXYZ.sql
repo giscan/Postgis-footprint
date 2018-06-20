@@ -5,11 +5,11 @@ $BODY$
 
 -- Rotate around X-axis
 WITH rotatedX AS (
-    SELECT ST_RotateX(geomA, rotRadiansX, pointOrigin) AS geom
+    SELECT ST_RotateX2(geomA, rotRadiansX, pointOrigin) AS geom
     ),
 -- Rotate around Y-axis
 rotatedXY AS (
-    SELECT ST_RotateY(geom, rotRadiansY, pointOrigin) AS geom
+    SELECT ST_RotateY2(geom, rotRadiansY, pointOrigin) AS geom
       FROM rotatedX
     ),
 -- Rotate around Z-axis
